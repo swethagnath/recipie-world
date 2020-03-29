@@ -1,0 +1,104 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  .spinner {
+    margin-top: 90px;
+    animation: spin 2s linear infinite;
+  } 
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .search-button {
+    display: block;
+    margin: 10px 40px
+  }
+
+  #next {
+    float:left;
+  }
+
+  #prev {
+    float:right;
+  }
+
+  .cover-image {
+    width: 100% !important;
+    height: 266px !important;
+    background-size: cover;
+  }
+
+  #recipe-details {
+    background-size: contain;
+  }
+
+  .hover-search-background {
+    background-color: gray !important;
+    color: red !important;
+
+  }
+
+  .serving {
+    margin: 20px;
+  }
+
+  .list-add-width {
+     width:50px;
+     margin-right: 10px;
+  }
+  
+  .add-list li {
+    margin: 20px 0;
+    border-bottom: 1px solid black;
+  }
+
+  li {
+    list-style-type:none;
+    text-decoration: none;
+  }
+
+  .heart {
+    width: 60px;
+  }
+
+  .add-wishlist {
+    width: 46px;
+  }
+  
+  .wishlist-toggle {
+    width: 500px;
+    padding: 10px;
+  }
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+  
+

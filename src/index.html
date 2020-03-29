@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/basics.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="https://icons8.com/icon/119199/spinner"></a>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <a href="https://icons8.com/icon/67572/heart"></a>
+  <a href="https://icons8.com/icon/95473/heart"></a>
+  <a href="https://icons8.com/icon/114045/heart"></a>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://img.icons8.com/cotton/64/000000/like--v3.png" class="add-wishlist"/></li>
+          <div class="dropdown dropdown-menu wishlist-toggle"></div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      
+  <div class="container-fluid text-center"> 
+
+    <div class="row content">
+      <div class="col-sm-2 sidenav" id="recipie-search-container">
+        <form id="search-recipie">
+            <input type="text" placeholder="Recipie.." id="query-search">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+        <ul class="list-unstyled" id="recipie-result">
+        </ul>
+        <div id="pagination"></div>
+      </div>
+
+      <div class="col-sm-8 text-left" id="recipe-details"> 
+      </div>
+
+      <div class="col-sm-2 sidenav add-list">
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>
